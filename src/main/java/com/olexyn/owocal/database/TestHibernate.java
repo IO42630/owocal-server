@@ -1,6 +1,7 @@
 package com.olexyn.owocal.database;
 
 
+import com.olexyn.owocal.database.model.EventEntity;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.query.Query;

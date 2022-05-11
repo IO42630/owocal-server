@@ -1,4 +1,4 @@
-package com.olexyn.owocal.core;
+package com.olexyn.owocal;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

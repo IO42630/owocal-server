@@ -4,7 +4,7 @@
 <hibernate-configuration>
     <session-factory>
         <property name="hibernate.connection.driver_class">org.h2.Driver</property>
-        <property name="hibernate.connection.url">jdbc:h2:file:./src/main/resources/owocal</property>
+        <property name="hibernate.connection.url">jdbc:h2:file:./db/owocal</property>
         <property name="hibernate.connection.username">user</property>
         <property name="hibernate.connection.password">password</property>
         <property name="hibernate.dialect">org.hibernate.dialect.H2Dialect</property>
@@ -13,6 +13,6 @@
         <!-- org.hibernate.HibernateException: No CurrentSessionContext configured! -->
         <property name="hibernate.current_session_context_class">thread</property>
         <!-- Mapping with model class containing annotations -->
-        <mapping class="com.olexyn.owocal.database.EventEntity"/>
+        <mapping class="com.olexyn.owocal.database.model.EventEntity"/>
     </session-factory>
 </hibernate-configuration>

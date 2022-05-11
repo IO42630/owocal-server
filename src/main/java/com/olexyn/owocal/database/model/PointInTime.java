@@ -1,6 +1,5 @@
-package com.olexyn.owocal.time;
+package com.olexyn.owocal.database.model;
 
-import com.olexyn.owocal.event.Event;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -11,8 +10,8 @@ public class PointInTime {
 
     private Set<PointInTime> timeGrid = new HashSet<>();
 
-    List<Event> endingEvents = new ArrayList<>();
-    List<Event> startingEvents = new ArrayList<>();
+    List<EventDto> endingEvents = new ArrayList<>();
+    List<EventDto> startingEvents = new ArrayList<>();
 
 
     PointInTime(){
