@@ -6,4 +6,6 @@ public interface EventService {
 
     EventDto get(Long id);
 
+    Long save(EventDto event);
+
 }
