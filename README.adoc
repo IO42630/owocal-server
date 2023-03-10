@@ -1,0 +1,10 @@
+:toc:
+:toclevels: 5
+
+=== About
+
+* A graph based calendar / process planner.
+* Repo for backend.
+* See `owocal-gui` for documentation.
+
+image::owo.png[,10%]
